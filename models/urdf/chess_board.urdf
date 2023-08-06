@@ -1,1 +1,22 @@
 <?xml version="1.0" ?>
+<robot name="_chessboard">
+    
+
+    <material name="grey">
+        <color rgba="0.5 0.5 0.5 0.5"/>
+    </material>
+
+    <link name="board">
+        <visual>
+            <geometry>
+                <box size="0.30 0.30 0.03"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <material name="grey"/>
+        </visual>
+    </link>
+    
+
+
+
+</robot>
