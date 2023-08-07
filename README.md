@@ -12,7 +12,7 @@ The **Braccio Chess Robot Arm** is a fun and experimental project where I'm comb
 
 - **ROS Integration:** I've integrated the Robot Operating System (ROS) to control the robot arm and facilitate communication between different components.
 
-- **Inverse Kinematics:** For movement of the robotic arm i will attemp to write a inverse kinematics solver.
+- **Inverse Kinematics:** For movement of the robotic arm i will attempt to write a inverse kinematics solver.
 
 ## Goals
 
@@ -23,7 +23,7 @@ This project is primarily for my personal exploration and enjoyment and to pract
 ## Repos used:
 
 https://github.com/ohlr/braccio_arduino_ros_rviz
-https://github.com/ros-drivers/rosserial
+- https://github.com/ros-drivers/rosserial
 
 Thank you for checking out my project!
 
