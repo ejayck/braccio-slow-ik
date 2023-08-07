@@ -22,7 +22,7 @@ This project is primarily for my personal exploration and enjoyment and to pract
 
 ## Repos used:
 
-https://github.com/ohlr/braccio_arduino_ros_rviz
+- https://github.com/ohlr/braccio_arduino_ros_rviz
 - https://github.com/ros-drivers/rosserial
 
 Thank you for checking out my project!
