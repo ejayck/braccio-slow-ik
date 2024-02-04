@@ -1,22 +1,23 @@
 #!/usr/bin/env python3
 
-import numpy as np
 import math
-from scipy.optimize import minimize
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-import random as r
-from sensor_msgs.msg import JointState
 import rospy
+import numpy as np
+import random as r
+import matplotlib.pyplot as plt
+from scipy.optimize import minimize
+from mpl_toolkits.mplot3d import Axes3D
+from sensor_msgs.msg import JointState
+from geometry_msgs.msg import PoseStamped
+
 
 
 class IK_solver():
 
     def __init__(self):
 
-        rospy.init_node("IK_JointStates")
+        #rospy.init_node("IK_JointStates")
         pub = rospy.Publisher("joint_states",JointState,queue_size=10)
-
 
 
 
@@ -93,7 +94,7 @@ class IK_solver():
         else:
             final_joint_angles = result.x
             print("joint angles are: ",result.x)
-            self.plot()
+            #self.plot()
             print(result.x)
             self.move_to_pos(result.x)
             print(result.fun)
@@ -182,9 +183,9 @@ class IK_solver():
 
 
 
-go = IK_solver()
+#go = IK_solver()
 
-go.solve_IK(([200],[300],[0],[1]))
+#go.solve_IK(([200],[300],[0],[1]))
 
 
 
