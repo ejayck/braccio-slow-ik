@@ -4,7 +4,7 @@ Welcome to my **Braccio Robot Arm** project! This repository houses my explorati
 
 ## Overview
 
-The **Braccio Chess Robot Arm** is a fun and experimental project where I'm combining various technologies to create a chess-playing robot. The main components of this project are:
+The **BraccioRobot Arm** is a fun and experimental project where I'm combining various technologies to create a chess-playing robot. The main components of this project are:
 
 - **Braccio Robotic Arm:** I'm utilising the Braccio robotic arm to physically manipulate objects on the board.
 
