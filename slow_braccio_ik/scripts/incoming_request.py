@@ -2,7 +2,7 @@
 
 import rospy
 from geometry_msgs.msg import PoseStamped
-from inverse_biverse import IK_solver
+from slow_inverse_braccio import IK_solver
 
 
 def callback(data):
